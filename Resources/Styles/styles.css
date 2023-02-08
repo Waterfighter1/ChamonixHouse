@@ -110,27 +110,25 @@ div#featuredproduct section {
 
 .sectiontext {
     font-size: 16px;
+    padding: 20px 0;
 }
 
-div#featuredproduct {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#featuredimage {
-    width: 250px;
-    flex: 40%;
-}
-
-div#featuredproduct section {
-    flex: 40%;
+footer {
     text-align: center;
+    height: 50px;
+    width: 100%;
+
+    background-color: white;
+
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #8F6858;
+    margin-top: 20px;
 }
 
-.sectionhead {
-    font-size: 30px;
-}
-
-.sectiontext {
-    font-size: 16px;
+.footertext {
+    line-height: 45px;
+    font-size: 14px;
+    color: #422520;
+    font-family: 'Inconsolata', monospace;
 }
