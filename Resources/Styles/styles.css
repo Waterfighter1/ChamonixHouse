@@ -259,6 +259,8 @@ footer {
 .groupDivider {
     width: 80%;
     border-color:#422520;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 #productline {
