@@ -87,3 +87,49 @@ a {
     color: #422520;
     font-family: 'Inconsolata', monospace;
 }
+
+div#featuredproduct {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#featuredimage {
+    width: 250px;
+    flex: 40%;
+}
+
+div#featuredproduct section {
+    flex: 40%;
+    text-align: center;
+}
+
+.sectionhead {
+    font-size: 30px;
+}
+
+.sectiontext {
+    font-size: 16px;
+}
+
+div#featuredproduct {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#featuredimage {
+    width: 250px;
+    flex: 40%;
+}
+
+div#featuredproduct section {
+    flex: 40%;
+    text-align: center;
+}
+
+.sectionhead {
+    font-size: 30px;
+}
+
+.sectiontext {
+    font-size: 16px;
+}
