@@ -59,6 +59,8 @@ nav {
     border-bottom-color: #8F6858;
 
     position: fixed;
+
+    z-index: 1;
 }
 
 div#companytitle {
