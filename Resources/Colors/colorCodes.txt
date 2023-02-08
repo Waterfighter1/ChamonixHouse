@@ -1,0 +1,4 @@
+Darkest Brown: #422520;
+Medium Brown: #6F3A27;
+Light Brown: #8F6858;
+Tan / Beige: #DFBA90;
