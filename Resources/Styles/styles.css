@@ -236,7 +236,8 @@ section {
 }
 
 .sectiontext {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 20px;
     padding: 20px 0;
 }
 
