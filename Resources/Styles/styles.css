@@ -5,19 +5,31 @@ body {
 }
 
 nav {
-    height: 40px;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: lightgray;
 }
 
 div#companytitle {
     width: 75%;
     float: left;
+
+    line-height: 50px;
+}
+
+#companytitleh2 {
+    line-height: 40px;
+    position: relative;
+    top: -15px;
+    padding-left: 20px;
 }
 
 div#links {
     width: 25%;
     display: flex;
     justify-content: space-evenly;
+    
+    line-height: 50px;
 }
