@@ -245,6 +245,8 @@ section {
     border-radius: 10px;
     padding: 10px;
     width: 350px;
+
+    box-shadow: 5px 5px 5px rgba(143, 104, 88,0.9);
 }
 
 .smallproduct>img {
@@ -364,13 +366,20 @@ section {
     font-family: 'Dosis', sans-serif;
 }
 
-#founders.sectionhead {
+.founders.sectionhead {
     text-align: center;
     font-family: 'Dosis', sans-serif;
 }
 
 
-#founders {
+.founders {
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.foundersSection {
     margin-top: 100px;
     width: 60%;
     margin-left: 20%;
