@@ -57,6 +57,8 @@ nav {
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: #8F6858;
+
+    position: fixed;
 }
 
 div#companytitle {
@@ -135,10 +137,99 @@ footer {
 
 #bannerContainer {   
     max-width: 100%;
-    height: 800px;
+    height: 600px;
     background-repeat: none;
     background-size: cover;
     background-position-y: center;
     background-color: #6F3A27;
-    background-image: url(../Images/Banner.png)
+    background-image: url(../Images/Banner.png);
+    display: flex;
+    justify-content:center;
+}
+
+#bannerQuote {
+    text-align: center;
+    position: relative;
+    bottom: -250px;
+    font-size: 25px;
+    height: 200px;
+    width: 75%;
+    text-align: center;
+    line-height: 50px;
+
+    color: white;
+
+    background-color: rgba(143, 104, 88, 0.4);
+    border-radius: 50px;
+
+    font-family: 'Inconsolata', monospace;
+
+    text-shadow: 5px 5px 5px #422520;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: -10px;
+}
+
+.group {
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 55px;
+}
+
+.productHolder {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.product {
+    background-color:bisque;
+    text-align: center;
+    border-radius: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 20%;
+    padding-top: 50px;
+    border-style: solid;
+    border-color:#422520;
+    border-width: 2px;
+}
+
+.groupName {
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.productImg {
+    max-width: 70%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:#422520;
+    border-width: 2px;
+}
+
+.productHTxt {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.price {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.priceDivider {
+    width: 80px;
+    border-color:#422520;
+}
+
+.groupDivider {
+    width: 80%;
+    border-color:#422520;
 }
