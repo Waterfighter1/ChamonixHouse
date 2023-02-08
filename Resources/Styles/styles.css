@@ -159,7 +159,11 @@ footer {
     background-color: #6F3A27;
     background-image: url(../Images/Banner.png);
     display: flex;
-    justify-content:center;
+    justify-content: center;
+
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #8F6858;
 }
 
 #bannerQuote {
@@ -247,35 +251,6 @@ footer {
 .groupDivider {
     width: 80%;
     border-color:#422520;
-}
-
-#productline {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.smallproduct {
-    background-color: rgba(207, 163, 111, 0.5);
-    border: 2px solid #6F3A27;
-    border-radius: 10px;
-    padding: 10px;
-    width: 350px;
-}
-
-.smallproduct > img {
-    max-width: 175px;
-    border-radius: 10px;
-}
-
-.arrow {
-    max-width: 45px;
-    padding: 10px;
-    border-radius: 50%;
-    transition: background-color 0.35s;
-}
-
-.arrow:hover {
-    background-color: rgb(143, 104, 88, 0.5);
 }
 
 #productline {
