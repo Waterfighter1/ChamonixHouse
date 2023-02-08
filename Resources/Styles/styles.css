@@ -132,3 +132,13 @@ footer {
     color: #422520;
     font-family: 'Inconsolata', monospace;
 }
+
+#bannerContainer {   
+    max-width: 100%;
+    height: 800px;
+    background-repeat: none;
+    background-size: cover;
+    background-position-y: center;
+    background-color: #6F3A27;
+    background-image: url(../Images/Banner.png)
+}
