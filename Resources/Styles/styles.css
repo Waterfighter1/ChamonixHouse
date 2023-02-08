@@ -37,3 +37,38 @@ nav ul {
     list-style: none;
     list-style-image: none;
 }
+
+body {
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 0px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#companytitle {
+    width: 75%;
+    float: left;
+
+    line-height: 50px;
+}
+
+#companytitleh2 {
+    line-height: 40px;
+    position: relative;
+    top: -15px;
+    padding-left: 20px;
+}
+
+div#links {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    line-height: 50px;
+}
