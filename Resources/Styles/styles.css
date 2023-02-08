@@ -1,0 +1,23 @@
+body {
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 0px;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#companytitle {
+    width: 75%;
+    float: left;
+}
+
+div#links {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
