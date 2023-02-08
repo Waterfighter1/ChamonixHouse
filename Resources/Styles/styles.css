@@ -27,6 +27,7 @@ table, tr, td, th, col, colgroup {
 
 body {
     line-height: 1.2em;
+    background-color:  rgba(223, 186, 144,.5)
 }
 
 ul, ol {
@@ -47,8 +48,15 @@ body {
 nav {
     height: 50px;
     width: 100%;
+
     display: flex;
     justify-content: space-between;
+
+    background-color: white;
+
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #8F6858;
 }
 
 div#companytitle {
@@ -59,10 +67,11 @@ div#companytitle {
 }
 
 #companytitleh2 {
-    line-height: 40px;
+    line-height: 45px;
     position: relative;
-    top: -15px;
     padding-left: 20px;
+    color: #422520;
+    font-family: 'Inconsolata', monospace;
 }
 
 div#links {
@@ -70,5 +79,11 @@ div#links {
     display: flex;
     justify-content: space-evenly;
     
-    line-height: 50px;
+    line-height: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: #422520;
+    font-family: 'Inconsolata', monospace;
 }
