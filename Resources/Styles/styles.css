@@ -96,16 +96,29 @@ div#featuredproduct {
 
 #featuredimage {
     width: 250px;
-    flex: 40%;
 }
 
-div#featuredproduct section {
-    flex: 40%;
+#featuredbutton {
+    background-color:rgba(207, 163, 111, 0.5);
+    padding: 5px;
+    border: 1px solid #6F3A27;
+    border-radius: 5px;
+    transition: background-color 0.35s;
+}
+
+#featuredbutton:hover {
+    background-color:rgba(187, 136, 79, 0.5);
+}
+
+section {
     text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: #422520;
 }
 
 .sectionhead {
     font-size: 30px;
+    padding: 20px 0;
 }
 
 .sectiontext {
@@ -141,4 +154,33 @@ footer {
     background-position-y: center;
     background-color: #6F3A27;
     background-image: url(../Images/Banner.png)
+}
+
+#productline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smallproduct {
+    background-color: rgba(207, 163, 111, 0.5);
+    border: 2px solid #6F3A27;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+}
+
+.smallproduct > img {
+    max-width: 175px;
+    border-radius: 10px;
+}
+
+.arrow {
+    max-width: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.35s;
+}
+
+.arrow:hover {
+    background-color: rgb(143, 104, 88, 0.5);
 }
