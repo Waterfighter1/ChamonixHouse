@@ -2,16 +2,56 @@
 
 /* Basic styles to be used with all devices and under all conditions */
 
-article, aside, figcaption, figure,
-footer, header, main, nav, section { 
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
     display: block;
 }
 
-address, article, aside, blockquote, body, cite, 
-div, dl, dt, dd, em, figcaption, figure, footer, 
-h1, h2, h3, h4, h5, h6, header, html, img, 
-li, main, nav, nav a, ol, p, section, span, ul,
-table, tr, td, th, col, colgroup {
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+nav a,
+ol,
+p,
+section,
+span,
+ul,
+table,
+tr,
+td,
+th,
+col,
+colgroup {
     margin: 0px;
     padding: 0px;
     border: 0;
@@ -19,7 +59,7 @@ table, tr, td, th, col, colgroup {
     background: transparent;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 
@@ -27,10 +67,11 @@ table, tr, td, th, col, colgroup {
 
 body {
     line-height: 1.2em;
-    background-color:  rgba(223, 186, 144,.5)
+    background-color: rgba(223, 186, 144, .5)
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -41,7 +82,7 @@ nav ul {
 
 body {
     margin-left: 0px;
-    margin-right:0px;
+    margin-right: 0px;
     margin-top: 0px;
 }
 
@@ -82,7 +123,7 @@ div#links {
     width: 25%;
     display: flex;
     justify-content: space-evenly;
-    
+
     line-height: 45px;
 }
 
@@ -105,7 +146,7 @@ div#featuredproduct {
 }
 
 #featuredbutton {
-    background-color:rgba(207, 163, 111, 0.5);
+    background-color: rgba(207, 163, 111, 0.5);
     padding: 5px;
     border: 1px solid #6F3A27;
     border-radius: 5px;
@@ -113,7 +154,7 @@ div#featuredproduct {
 }
 
 #featuredbutton:hover {
-    background-color:rgba(187, 136, 79, 0.5);
+    background-color: rgba(187, 136, 79, 0.5);
 }
 
 #clearfix {
@@ -165,7 +206,7 @@ footer {
     font-family: 'Inconsolata', monospace;
 }
 
-#bannerContainer {   
+#bannerContainer {
     max-width: 100%;
     height: 600px;
     background-repeat: none;
@@ -213,11 +254,11 @@ footer {
 
 .productHolder {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .product {
-    background-color:bisque;
+    background-color: bisque;
     text-align: center;
     border-radius: 50px;
     padding-left: 35px;
@@ -225,7 +266,7 @@ footer {
     width: 20%;
     padding-top: 50px;
     border-style: solid;
-    border-color:#422520;
+    border-color: #422520;
     border-width: 2px;
 }
 
@@ -241,7 +282,7 @@ footer {
     max-width: 70%;
     border-radius: 50%;
     border-style: solid;
-    border-color:#422520;
+    border-color: #422520;
     border-width: 2px;
 }
 
@@ -260,12 +301,12 @@ footer {
 
 .priceDivider {
     width: 80px;
-    border-color:#422520;
+    border-color: #422520;
 }
 
 .groupDivider {
     width: 80%;
-    border-color:#422520;
+    border-color: #422520;
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -283,7 +324,7 @@ footer {
     width: 350px;
 }
 
-.smallproduct > img {
+.smallproduct>img {
     max-width: 175px;
     border-radius: 10px;
 }
@@ -319,9 +360,9 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 
-    box-shadow:rgb(143, 104, 88) 5px 5px;
+    box-shadow: rgb(143, 104, 88) 5px 5px;
 
-    background-color: rgba(255,255,255,0.7)
+    background-color: rgba(255, 255, 255, 0.7)
 }
 
 .aboutusgroup {
@@ -350,5 +391,5 @@ footer {
 
 .headerLine {
     width: 40%;
-    border-color:#422520;
+    border-color: #422520;
 }
